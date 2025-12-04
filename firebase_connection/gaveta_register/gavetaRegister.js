@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       alert('Gaveta criada com sucesso!');
       setTimeout(() => {
-        window.location.href = `../../closet/gaveta/gaveta.html?id=${gavetaId}`;
+        window.location.href = `../../closet/gaveta/gaveta.html?idGaveta=${gavetaId}`;
       }, 1000);
 
     } catch (err) {
